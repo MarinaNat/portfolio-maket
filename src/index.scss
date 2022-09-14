@@ -1,0 +1,24 @@
+@import url("./vendor/fonts/fonts.css");
+@import "_varibles.scss";
+@import url("./vendor/normalize.css");
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  &._loaded {
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Heebo, "Courier New", monospace;
+}
