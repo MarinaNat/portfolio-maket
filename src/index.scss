@@ -1,4 +1,3 @@
-@import url("./vendor/fonts/fonts.css");
 @import "_varibles.scss";
 @import url("./vendor/normalize.css");
 
@@ -8,8 +7,6 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  &._loaded {
-  }
 }
 
 body {
@@ -20,5 +17,5 @@ body {
 }
 
 code {
-  font-family: Heebo, "Courier New", monospace;
+  font-family: "Heebo", "Courier New", monospace;
 }
