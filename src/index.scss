@@ -1,5 +1,7 @@
 @import "_varibles.scss";
-@import url("./vendor/normalize.css");
+@import "./vendor/normalize.css";
+@import "../sccs/forms.scss";
+@import "../sccs/ui.scss";
 
 .wrapper {
   width: 100%;
@@ -10,6 +12,7 @@
 }
 
 body {
+  color: #21243d;
   margin: 0;
   font-family: "Heebo", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -18,4 +21,19 @@ body {
 
 code {
   font-family: "Heebo", "Courier New", monospace;
+}
+
+.container {
+  max-width: $maxWidthContainer;
+  margin: 0 auto;
+  @media (max-width: $md1) {
+    max-width: 970px;
+  }
+  @media (max-width: $md2) {
+    max-width: 750px;
+  }
+  @media (max-width: $md3) {
+    max-width: none;
+    padding: 0 10px;
+  }
 }

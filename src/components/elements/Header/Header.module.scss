@@ -9,7 +9,7 @@
 }
 
 .menu {
-	border: 1px solid red;
+	// border: 1px solid red;
 	height: 82px;
 	align-items: center;
 	display: flex;
@@ -36,7 +36,7 @@
 		}
 	}
 	&__body {
-		border: 1px solid red;
+		// border: 1px solid red;
 		height: 100%;
 		font-style: normal;
 		@media (max-width: $md3) {

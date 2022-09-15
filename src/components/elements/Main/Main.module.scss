@@ -1,0 +1,37 @@
+// .main {
+// 	padding: 90px 0px 0px 0px;
+// 	float: 1 1 auto;
+// }
+
+.hello {
+	padding: 41px 0px 0px 0px;
+	&__container {
+		// border: 1px solid red;
+		display: flex;
+	}
+	&__content {
+		padding: 0px 110px 0px 0px;
+		flex: 1 1 auto;
+	}
+	&__title {
+		margin: 0px 0px 25px 0px;
+	}
+	&__text {
+		margin: 0px 0px 32px 0px;
+	}
+	&__btn {
+	}
+	&__avatar {
+		flex: 0 0 243px;
+		height: 243px;
+		border-radius: 50%;
+		overflow: hidden;
+		box-shadow: -5px 13px 0px 0px #edf7fa;
+		img {
+			max-width: 100%;
+		}
+	}
+}
+
+.btn {
+}
