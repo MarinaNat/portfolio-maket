@@ -1,25 +1,59 @@
+@import "../../../_varibles.scss";
+
 // .main {
 // 	padding: 90px 0px 0px 0px;
 // 	float: 1 1 auto;
 // }
-
 .hello {
-	padding: 41px 0px 0px 0px;
+	padding: 40px 0px 70px 0px;
+	@media (max-width: $md1) {
+		padding: 0px 0px 70px 0px;
+	}
+	@media (max-width: $md3) {
+		padding: 0px 0px 60px 0px;
+	}
 	&__container {
 		// border: 1px solid red;
 		display: flex;
+		@media (max-width: $md3) {
+			flex-direction: column-reverse;
+			align-items: center;
+			text-align: center;
+		}
 	}
 	&__content {
-		padding: 0px 110px 0px 0px;
+		align-items: flex-start;
+		padding: 18px 110px 0px 0px;
 		flex: 1 1 auto;
+		*:last-child {
+			margin-bottom: 0;
+		}
+		@media (max-width: $md1) {
+			padding: 18px 50px 0px 0px;
+		}
+		@media (max-width: $md3) {
+			padding: 0px 0px 0px 0px;
+		}
 	}
 	&__title {
 		margin: 0px 0px 25px 0px;
+		@media (max-width: $md3) {
+			margin: 0px 0px 20px 0px;
+			padding: 0px 22px;
+		}
 	}
 	&__text {
 		margin: 0px 0px 32px 0px;
+		@media (max-width: $md3) {
+			margin: 0px 0px 25px 0px;
+			padding: 0px 15px;
+		}
 	}
 	&__btn {
+		margin: 0px 0px 25px 0px;
+		@media (max-width: $md3) {
+			margin: 0px 0px 20px 0px;
+		}
 	}
 	&__avatar {
 		flex: 0 0 243px;
@@ -29,6 +63,11 @@
 		box-shadow: -5px 13px 0px 0px #edf7fa;
 		img {
 			max-width: 100%;
+		}
+		@media (max-width: $md3) {
+			width: 170px;
+			flex: 0 0 170px;
+			margin: 0px 0px 43px 0px;
 		}
 	}
 }

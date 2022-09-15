@@ -3,6 +3,10 @@
 	font-weight: 700;
 	// color: #21243d;
 	line-height: 60 / 44 * 100%;
+	@media (max-width: $md3) {
+		font-size: 32px;
+		line-height: 40 / 32 * 100%;
+	}
 }
 .text {
 	font-weight: 400;
