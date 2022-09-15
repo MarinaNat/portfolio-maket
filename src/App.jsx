@@ -3,7 +3,10 @@ import Header from './components/elements/Header/Header';
 
 function App() {
   return (
-    <Header />
+    <div className='wrapper'>
+      <Header />
+    </div>
+
   );
 }
 
