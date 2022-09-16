@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-maket/static/css/main.a97afce7.css",
-    "main.js": "/portfolio-maket/static/js/main.9b3a0267.js",
+    "main.css": "/portfolio-maket/static/css/main.656764ed.css",
+    "main.js": "/portfolio-maket/static/js/main.7104335b.js",
     "static/media/avatar.jpg": "/portfolio-maket/static/media/avatar.b758f0aaf3260548c2b3.jpg",
     "index.html": "/portfolio-maket/index.html",
-    "main.a97afce7.css.map": "/portfolio-maket/static/css/main.a97afce7.css.map",
-    "main.9b3a0267.js.map": "/portfolio-maket/static/js/main.9b3a0267.js.map"
+    "main.656764ed.css.map": "/portfolio-maket/static/css/main.656764ed.css.map",
+    "main.7104335b.js.map": "/portfolio-maket/static/js/main.7104335b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a97afce7.css",
-    "static/js/main.9b3a0267.js"
+    "static/css/main.656764ed.css",
+    "static/js/main.7104335b.js"
   ]
 }
