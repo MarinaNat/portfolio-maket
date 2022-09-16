@@ -1,10 +1,10 @@
-import styles from './Main.module.scss'
+import styles from './Hello.module.scss'
 import avatar from '../../../image/avatar.jpg'
 
-const Main = () => {
+const Hello = () => {
 	return (
 		// <div className={styles.main}>
-		<div className={styles.hello}>
+		<section className={styles.hello}>
 			<div className={`${styles.hello__container} container`}>
 				<div className={styles.hello__content}>
 					<h1 className={`${styles.hello__title} title`}>Hi, I am John,<br />
@@ -19,9 +19,9 @@ const Main = () => {
 					<img src={avatar} alt='Аватар' />
 				</div>
 			</div>
-		</div>
+		</section>
 		// </div>
 	)
 }
 
-export default Main
+export default Hello
