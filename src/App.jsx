@@ -1,13 +1,15 @@
 import './App.scss';
 import Header from './components/elements/Header/Header';
-import Main from './components/elements/Main/Main';
+import Hello from './components/elements/Hello/Hello';
+import Posts from './components/elements/Posts/Posts';
 
 function App() {
   return (
     <div className='wrapper'>
       <Header />
       <div className='main'>
-        <Main />
+        <Hello />
+        <Posts />
       </div>
     </div>
   );
