@@ -15,8 +15,3 @@
 Позиционирование
 ### верстка по макету
 https://www.figma.com/file/SEZ83A9epM2DnR1kx3NcbX/Portfolio-UI---Web-%26-Mobile-(Community)?node-id=0%3A1
-<<<<<<< HEAD
-
-
-=======
->>>>>>> posts
