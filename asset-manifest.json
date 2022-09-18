@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-maket/static/css/main.d805b85e.css",
-    "main.js": "/portfolio-maket/static/js/main.b315feae.js",
+    "main.css": "/portfolio-maket/static/css/main.c52a6936.css",
+    "main.js": "/portfolio-maket/static/js/main.59a4256c.js",
     "static/media/02.jpg": "/portfolio-maket/static/media/02.93fa31a1611029df3f51.jpg",
     "static/media/avatar.jpg": "/portfolio-maket/static/media/avatar.b758f0aaf3260548c2b3.jpg",
     "static/media/01.jpg": "/portfolio-maket/static/media/01.2c0846ac32bb470dbc61.jpg",
     "index.html": "/portfolio-maket/index.html",
-    "main.d805b85e.css.map": "/portfolio-maket/static/css/main.d805b85e.css.map",
-    "main.b315feae.js.map": "/portfolio-maket/static/js/main.b315feae.js.map"
+    "main.c52a6936.css.map": "/portfolio-maket/static/css/main.c52a6936.css.map",
+    "main.59a4256c.js.map": "/portfolio-maket/static/js/main.59a4256c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d805b85e.css",
-    "static/js/main.b315feae.js"
+    "static/css/main.c52a6936.css",
+    "static/js/main.59a4256c.js"
   ]
 }
