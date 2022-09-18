@@ -1,4 +1,5 @@
 import './App.scss';
+import Footer from './components/elements/Footer/Footer';
 import Header from './components/elements/Header/Header';
 import Hello from './components/elements/Hello/Hello';
 import Posts from './components/elements/Posts/Posts';
@@ -13,6 +14,7 @@ function App() {
         <Posts />
         <Works />
       </div>
+      <Footer />
     </div>
   );
 }
