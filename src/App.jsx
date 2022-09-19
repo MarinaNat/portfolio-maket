@@ -1,19 +1,20 @@
+import { Route, Routes } from 'react-router-dom';
+import React from 'react';
 import './App.scss';
 import Footer from './components/elements/Footer/Footer';
 import Header from './components/elements/Header/Header';
-import Hello from './components/elements/Hello/Hello';
-import Posts from './components/elements/Posts/Posts';
-import Works from './components/elements/Works/Works';
+import Main from './components/elements/Main/Main';
 
 function App() {
   return (
     <div className='wrapper'>
       <Header />
-      <div className='main'>
-        <Hello />
-        <Posts />
-        <Works />
-      </div>
+      <Routes>
+        <Route
+          path='home'
+          element={<Main />}
+        ></Route>
+      </Routes>
       <Footer />
     </div>
   );
