@@ -1,0 +1,59 @@
+@import "../../../varibles";
+
+.blog {
+	&__title {
+		padding-bottom: 50px;
+		@media (max-width: $md3) {
+			padding: 0px 0px 30px 0px;
+		}
+	}
+	&__items {
+	}
+	&__item {
+		border-bottom: 1px solid #e0e0e0;
+		padding: 0px 0px 30px 0px;
+		margin: 0px 0px 30px 0px;
+		&:last-child {
+			margin: 0px;
+		}
+		@media (max-width: $md3) {
+			margin: 0px 0px 25px 0px;
+			padding: 0px 0px 25px 0px;
+		}
+	}
+	&__subtitle {
+		display: inline-block;
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 44/30 * 100%;
+		color: inherit;
+		margin: 0px 0px 10px 0px;
+		transition: color 0.3s ease 0s;
+		@media (min-width: $md2) {
+			&:hover {
+				color: $colorHover;
+			}
+		}
+		@media (max-width: $md3) {
+			font-size: 26px;
+		}
+	}
+	&__info {
+		display: flex;
+		font-size: 20px;
+		margin: 0px 0px 10px 0px;
+		@media (max-width: $md3) {
+			font-size: 16px;
+		}
+	}
+	&__data {
+	}
+	&__separator {
+		margin: 0px 15px;
+	}
+	&__category {
+		color: #8695a4;
+	}
+	&__text {
+	}
+}

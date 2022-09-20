@@ -67,7 +67,7 @@
 		transition: color 0.3s ease 0s;
 		@media (min-width: $md2) {
 			&:hover {
-				color: #ff6464;
+				color: $colorHover;
 			}
 		}
 		@media (max-width: $md3) {

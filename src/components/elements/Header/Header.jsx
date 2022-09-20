@@ -4,6 +4,7 @@ import Menu from './Menu'
 
 const Header = () => {
 	const [isSidebarShow, setIsSidebarShow] = useState(false)
+
 	return (
 		<header className={styles.header}>
 			<div className={styles.header__conteiner}>

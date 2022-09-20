@@ -1,8 +1,8 @@
 @import "./varibles";
 
-.main {
+.page {
 	padding: 90px 0px 0px 0px;
-	float: 1 1 auto;
+	flex: 1 1 auto;
 	@media (max-width: $md3) {
 		padding: 36px 0px 0px 0px;
 	}

@@ -1,15 +1,29 @@
 import styles from './Header.module.scss'
+import { NavLink } from 'react-router-dom'
+
+const setActive = ({ isActive }) => isActive
+	? `${styles.menu__link_active} ${styles.menu__link}`
+	: `${styles.menu__link}`;
 
 const Menu = ({ isSidebarShow, setIsSidebarShow }) => {
-	const menu = [
-		'Works', 'Blog', 'Contact'
+
+	const tabs = [
+		{
+			_id: 1,
+			name: 'Works'
+		},
+		{
+			_id: 2,
+			name: 'Blog'
+		},
+		{
+			_id: 3,
+			name: 'Contact'
+		}
 	]
 
 	return (
 		<div className={styles.menu}>
-			{/* <button onClick={() => setIsSidebarShow(!isSidebarShow)}>
-				<i className={`bx bx-${isSidebarShow ? 'x' : 'menu'}`}></i>
-			</button> */}
 			<div onClick={() => setIsSidebarShow(!isSidebarShow)}
 				className={`${isSidebarShow ? `${styles.menu__icon_active}` : `${styles.menu__icon}`}`}>
 				<span></span>
@@ -18,9 +32,14 @@ const Menu = ({ isSidebarShow, setIsSidebarShow }) => {
 			</div>
 			<nav className={`${isSidebarShow ? `${styles.menu__body} ${styles.menu__body_active}` : `${styles.menu__body}`}`}>
 				<ul className={styles.menu__list}>
-					{menu.map(title => (
-						<li key={title}>
-							<a href={title}>{title}</a>
+					{tabs.map(tab => (
+						<li key={tab._id}>
+							<NavLink
+								to={tab.name}
+								className={setActive}
+							>
+								{tab.name}
+							</NavLink>
 						</li>
 					))}
 				</ul>
