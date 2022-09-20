@@ -6,7 +6,7 @@
 
 .wrapper {
   width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@ a {
     color: inherit;
     @media (min-width: $md2) {
       &:hover {
-        color: #ff6464;
+        color: $colorHover;
       }
     }
   }

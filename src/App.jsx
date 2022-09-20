@@ -3,7 +3,9 @@ import React from 'react';
 import './App.scss';
 import Footer from './components/elements/Footer/Footer';
 import Header from './components/elements/Header/Header';
-import Main from './components/elements/Main/Main';
+import Home from './components/elements/Home/Home';
+import Blog from './components/elements/Blog/Blog';
+import Work from './components/elements/Work/Work';
 
 function App() {
   return (
@@ -11,8 +13,16 @@ function App() {
       <Header />
       <Routes>
         <Route
-          path='home'
-          element={<Main />}
+          path='*'
+          element={<Home />}
+        ></Route>
+        <Route
+          path='blog'
+          element={<Blog />}
+        ></Route>
+        <Route
+          path='works'
+          element={<Work />}
         ></Route>
       </Routes>
       <Footer />

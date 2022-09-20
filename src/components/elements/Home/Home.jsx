@@ -3,9 +3,9 @@ import Hello from '../Hello/Hello'
 import Posts from '../Posts/Posts'
 import Works from '../Works/Works'
 
-const Main = () => {
+const Home = () => {
 	return (
-		<div className='main'>
+		<div className='page'>
 			<Hello />
 			<Posts />
 			<Works />
@@ -13,4 +13,4 @@ const Main = () => {
 	)
 }
 
-export default Main
+export default Home
