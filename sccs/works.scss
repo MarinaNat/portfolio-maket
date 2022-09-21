@@ -35,8 +35,14 @@
 		line-height: 44/30 * 100%;
 		font-weight: 700;
 		margin: 0 0 15px 0;
+		transition: color 0.3s ease 0s;
 		@media (max-width: $md3) {
 			font-size: 24px;
+		}
+		@media (min-width: $md2) {
+			&:hover {
+				color: $colorHover;
+			}
 		}
 	}
 	&__info {

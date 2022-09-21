@@ -6,6 +6,7 @@ import Header from './components/elements/Header/Header';
 import Home from './components/elements/Home/Home';
 import Blog from './components/elements/Blog/Blog';
 import Work from './components/elements/Work/Work';
+import Article from './components/elements/Article/Article';
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
         <Route
           path='works'
           element={<Work />}
+        ></Route>
+        <Route
+          path='works/1'
+          element={<Article />}
         ></Route>
       </Routes>
       <Footer />
