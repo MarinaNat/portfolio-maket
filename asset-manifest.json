@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-maket/static/css/main.5c1be0c6.css",
-    "main.js": "/portfolio-maket/static/js/main.dbc2bf70.js",
+    "main.css": "/portfolio-maket/static/css/main.258091c3.css",
+    "main.js": "/portfolio-maket/static/js/main.aa14c294.js",
     "static/media/02.jpg": "/portfolio-maket/static/media/02.93fa31a1611029df3f51.jpg",
-    "static/media/avatar.jpg": "/portfolio-maket/static/media/avatar.b758f0aaf3260548c2b3.jpg",
     "static/media/01.jpg": "/portfolio-maket/static/media/01.2c0846ac32bb470dbc61.jpg",
+    "static/media/avatar.jpg": "/portfolio-maket/static/media/avatar.b758f0aaf3260548c2b3.jpg",
+    "static/media/03.jpg": "/portfolio-maket/static/media/03.76d08b51125cb46aeaea.jpg",
     "index.html": "/portfolio-maket/index.html",
-    "main.5c1be0c6.css.map": "/portfolio-maket/static/css/main.5c1be0c6.css.map",
-    "main.dbc2bf70.js.map": "/portfolio-maket/static/js/main.dbc2bf70.js.map"
+    "main.258091c3.css.map": "/portfolio-maket/static/css/main.258091c3.css.map",
+    "main.aa14c294.js.map": "/portfolio-maket/static/js/main.aa14c294.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c1be0c6.css",
-    "static/js/main.dbc2bf70.js"
+    "static/css/main.258091c3.css",
+    "static/js/main.aa14c294.js"
   ]
 }
