@@ -12,10 +12,10 @@ const Works = () => {
 				<div className={`${styles.featuredWorks__items} works`}>
 					<article className={`${styles.works__item} works__item`}>
 						<a href='/#' className='works__image ibg'>
-							<img src={works01} alt="Worc #1"></img>
+							<img src={works01} alt="Workc #1"></img>
 						</a>
 						<div className='works__body'>
-							<div className='works__title'>Designing Dashboards</div>
+							<a href='/#' className='works__title'>Designing Dashboards</a>
 							<div className='works__info'>
 								<div className='works__year'>2020</div>
 								<div className='works__category'>Dashboard</div>
@@ -27,10 +27,10 @@ const Works = () => {
 					</article>
 					<article className={`${styles.works__item} works__item`}>
 						<a href='/#' className='works__image ibg'>
-							<img src={works02} alt="Worc #1"></img>
+							<img src={works02} alt="Workc #2"></img>
 						</a>
 						<div className='works__body'>
-							<div className='works__title'>Vibrant Portraits of 2020</div>
+							<a href='/#' className='works__title'>Vibrant Portraits of 2020</a>
 							<div className='works__info'>
 								<div className='works__year'>2018</div>
 								<div className='works__category'>Illustration</div>
@@ -42,10 +42,10 @@ const Works = () => {
 					</article>
 					<article className={`${styles.works__item} works__item`}>
 						<a href='/#' className='works__image ibg'>
-							<img src={works03} alt="Worc #1"></img>
+							<img src={works03} alt="Workc #3"></img>
 						</a>
 						<div className='works__body'>
-							<div className='works__title'>36 Days of Malayalam type</div>
+							<a href='/#' className='works__title'>36 Days of Malayalam type</a>
 							<div className='works__info'>
 								<div className='works__year'>2018</div>
 								<div className='works__category'>Typography</div>
